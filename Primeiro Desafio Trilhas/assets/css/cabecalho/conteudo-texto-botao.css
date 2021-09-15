@@ -1,0 +1,13 @@
+.conteudo__texto--botao{
+  display: block;
+  width: 15%;
+  padding: 15px;
+  background-color: #fdfdfd;
+  color: #1A1E21;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: .2s all;
+  cursor: pointer;
+}

@@ -4,6 +4,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,6 +48,15 @@
   <link href="./assets/css/contato/contato-formulario-form.css" rel="stylesheet" />
   <link href="./assets/css/contato/contato-form.css" rel="stylesheet" />
   <link href="./assets/css/contato/contato-mensagem.css" rel="stylesheet" />
+  <link href="./assets/css/contato/contato-text.css" rel="stylesheet" />
+  <link href="./assets/css/contato/contato-input.css" rel="stylesheet" />
+  <link href="./assets/css/contato/contato-textarea.css" rel="stylesheet" />
+  <link href="./assets/css/contato/contato-submit.css" rel="stylesheet" />
+  <link href="./assets/css/rodape/rodape.css" rel="stylesheet" />
+  <link href="./assets/css/rodape/rodape-lista.css" rel="stylesheet" />
+  <link href="./assets/css/rodape/rodape-item.css" rel="stylesheet" />
+  <link href="./assets/css/rodape/rodape-link.css" rel="stylesheet" />
+  <link href="./assets/css/rodape/rodape-span.css" rel="stylesheet" />
 </head>
 <body>
   <main>
@@ -94,7 +104,7 @@
       </div>
     </section>
     <!-- Seçao Cultura  -->
-    <section class="culturas">
+    <section class="culturas" id="cultura">
       <div class="culturas_cabecalho">
         <h2 class="sobre__titulo">Cultura</h2>
         <span class="sobre__span">Nossa cultura</span>
@@ -153,7 +163,7 @@
       </div>
     </section>
     <!-- Seçao Galeria -->
-    <section class="galeria">
+    <section class="galeria" id="galeria">
       <div class="galeria__cabecalho">
         <h2 class="sobre__titulo">Galeria</h2>
         <span class="sobre__span">Nossa gente</span>
@@ -172,33 +182,38 @@
         <button class="galeria__botao--botao"><a href="">Ver mais</a></button>
       </div>
     </section>
+    <!-- Seção Contato -->
+    <section class="contato" id="contato">
+      <div class="contato__cabecalho">
+        <h2 class="contato__titulo">Contato</h2>
+        <span class="contato__descricao">Fale conosco</span>
+      </div>
+  
+      <div class="contato__formulario">
+        <form class="contato__formulario--form">
+            <div class="contato__form">
+              <label for="nome" class="contato__text">Nome</label>
+              <input type="text" id="nome" class="contato__input" required placeholder="Nome Sobrenome">
+              <label for="email" class="contato__text">Email</label>
+              <input type="email" id="email" class="contato__input" required placeholder="seunome@dominio.com">
+            </div>
+            <div class="contato__mensagem">
+              <textarea id="mensagem" cols="70" rows="10" class="contato__textarea" required placeholder="Escreva-nos"></textarea>
+              <input type="submit" value="Enviar" class="contato__submit">
+            </div>
+        </form>
+      </div>
+    </section>
   </main>
-  <!-- Seção Contato -->
-  <section class="contato">
-    <div class="contato__cabecalho">
-      <h2 class="contato__titulo">Contato</h2>
-      <span class="contato__descricao">Fale conosco</span>
-    </div>
-
-    <div class="contato__formulario">
-      <form class="contato__formulario--form">
-          <div class="contato__form">
-            <label for="nome" class="contato_nome">Nome</label>
-            <input type="text" id="nome" class="form__input" required>
-            <label for="email" class="contato__email">Email</label>
-            <input type="email" id="email" class="form__input" required placeholder="seunome@dominio.com">
-          </div>
-          <div class="contato__mensagem">
-            <label for="mensagem" class="contato__mensagem--msg">Mensagem</label>
-            <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
-            <input type="submit" value="Enviar" class="contato__submit">
-          </div>
-      </form>
-    </div>
-  </section>
   <!-- Footer -->
-  <footer class="rodape">
-
+  <footer class="rodape" id="rodape">
+      <ul class="rodape__lista">
+        <li class="rodape__item"><a target="_blank" href="https://github.com/NeiltonSeguins" class="rodape__link"><i class="uil uil-github-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://www.linkedin.com/in/ne%C3%ADlton-seguins-bb8786a6/" class="rodape__link"><i class="uil uil-linkedin-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://twitter.com/SeguinsNeilton" class="rodape__link"><i class="uil uil-twitter-alt"></i></a></li>
+        <li class="rodape__item"><a target="_blank" href="https://www.instagram.com/neilton_seguins/?hl=pt-br" class="rodape__link"><i class="uil uil-instagram-alt"></i></a></li>
+      </ul>
+    <span class="rodape__span">&copy Desenvolvido por Neilton Seguins</span>
   </footer>
 </body>
 </html>

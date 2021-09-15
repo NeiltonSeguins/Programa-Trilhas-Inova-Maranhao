@@ -1,4 +1,12 @@
 .contato__mensagem{
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.contato__mensagem textarea::placeholder{
+  padding: 15px;
 }

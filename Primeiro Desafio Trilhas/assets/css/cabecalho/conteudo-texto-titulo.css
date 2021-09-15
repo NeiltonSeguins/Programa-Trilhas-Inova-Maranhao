@@ -1,6 +1,7 @@
 .conteudo__texto--titulo{
   color: #fdfdfd;
   font-family: Poppins, cursive;
-  font-size: 125px;
+  font-size: 120px;
+  font-weight: bold;
   margin-bottom: 50px;
 }

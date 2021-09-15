@@ -1,0 +1,4 @@
+.contato__mensagem{
+  display: flex;
+  flex-direction: column;
+}

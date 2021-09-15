@@ -1,0 +1,8 @@
+.contato{
+  /* background: #A61127; */
+  background: url('../../img/sessao-contato.jpg') center center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: auto;
+}

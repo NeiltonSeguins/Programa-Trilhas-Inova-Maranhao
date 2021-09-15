@@ -1,0 +1,15 @@
+.cultura{
+  background: #A61127;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 25%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cultura:hover{
+  box-shadow: 1px 1px 8px 1px #888888;
+  cursor: pointer;
+  transition: .3s all;
+}

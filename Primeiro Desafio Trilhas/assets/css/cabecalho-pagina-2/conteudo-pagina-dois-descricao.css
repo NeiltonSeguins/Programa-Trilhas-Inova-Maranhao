@@ -2,6 +2,21 @@
   color: #fdfdfd;
   font-size: 25px;
   font-weight: 500;
-  margin-bottom: 100px;
   z-index: initial;
+}
+
+@media  screen and (min-width: 0) {
+  .conteudo__pagina--dois--descricao{
+    font-size: 25px;
+    margin:30px auto;
+    text-align: center;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .conteudo__pagina--dois--descricao{
+    font-size: 31px;
+    margin:30px auto;
+    text-align: center;
+  }
 }

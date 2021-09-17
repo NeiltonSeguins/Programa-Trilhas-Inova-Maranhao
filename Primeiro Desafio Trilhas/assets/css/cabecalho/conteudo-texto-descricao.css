@@ -6,8 +6,8 @@
 
 @media  screen and (min-width: 0) {
   .conteudo__texto--descricao{
-    font-size: 25px;
-    margin:30px auto;
+    font-size: 20px;
+    margin:30px 30px;
     text-align: center;
   }
 }

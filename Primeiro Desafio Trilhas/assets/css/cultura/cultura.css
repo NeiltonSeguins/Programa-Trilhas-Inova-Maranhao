@@ -13,3 +13,20 @@
   cursor: pointer;
   transition: .3s all;
 }
+
+@media  screen and (min-width: 0) {
+  .cultura{
+    margin: 20px;
+    width: 80%;
+    height: 560px;
+    border-radius: 8px;
+  }
+}
+
+@media  screen and (min-width: 768px) {
+  .cultura{
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
